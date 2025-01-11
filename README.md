@@ -29,7 +29,7 @@ Before starting, ensure the following:
    - Go to the **Computer Name** tab.
    - Click **Change**.
 3. In the **Computer Name/Domain Changes** window:
-   - Under "Computer Name" you can name the name of the device. 
+   - Under **Computer Name** you can name the name of the device. 
    - Under **Member of**, select **Domain**.
    - Enter the name of the domain (e.g., `example.com`).
 4. Click **OK**.
