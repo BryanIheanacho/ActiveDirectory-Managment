@@ -29,6 +29,7 @@ Before starting, ensure the following:
    - Go to the **Computer Name** tab.
    - Click **Change**.
 3. In the **Computer Name/Domain Changes** window:
+   - Under "Computer Name" you can name the name of the device. 
    - Under **Member of**, select **Domain**.
    - Enter the name of the domain (e.g., `example.com`).
 4. Click **OK**.
@@ -46,6 +47,7 @@ Before starting, ensure the following:
 ### 4. Restart the Computer
 1. Once the computer successfully joins the domain, you’ll see a confirmation message.
 2. Restart the computer to apply the changes.
+![pc-listed-AD](https://github.com/user-attachments/assets/3ff707bd-7e66-4300-9e20-bb6ebdef416c)
 
 ---
 
