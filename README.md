@@ -1,6 +1,6 @@
 # Information-Technology-Projects
 # Joining a Computer to a Domain
----
+
 Hello, my name is Bryan Iheanacho and in this guide I will explain how to join a Windows computer to an Active Directory (AD) domain. 
 
 ---
