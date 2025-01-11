@@ -32,6 +32,7 @@ Before starting, ensure the following:
    - Under **Member of**, select **Domain**.
    - Enter the name of the domain (e.g., `example.com`).
 4. Click **OK**.
+![domain-add-name](https://github.com/user-attachments/assets/c5f6dcfb-8d77-49f5-8af4-33c8c143f8ad)
 
 ---
 
