@@ -42,7 +42,8 @@ Before you begin, ensure you have the following:
    - **Unlock the user's account** (if account has locked)
 3. Click **Next** and then **Finish**.
 
-![password-reset-ad](https://github.com/user-attachments/assets/42568ba9-4870-4129-919b-7dfc8b8c7c3e)
+![input-password-ad](https://github.com/user-attachments/assets/b75c97e2-89c1-42d0-9688-c5e1ef670732)
+
 
 ---
 
