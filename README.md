@@ -1,4 +1,4 @@
-# Managing Users in Active Directory
+# Creating & Managing Users in Active Directory
 
 This guide explains how to create a new user and change their password in Active Directory using both the GUI (Active Directory Users and Computers) and PowerShell.
 
@@ -13,7 +13,7 @@ Before you begin, ensure you have the following:
 
 ---
 
-## Method 1: Using Active Directory Users and Computers (GUI)
+### Using Active Directory Users and Computers (GUI)
 
 ### Step 1: Open the Active Directory Users and Computers Tool
 1. Press `Windows`, type and click **Active Directory Users and Computers**
@@ -53,4 +53,9 @@ Before you begin, ensure you have the following:
 3. Click **OK**.
 
 ![right-click-password](https://github.com/user-attachments/assets/ec106c4c-a201-4af1-871a-b43d68e397da)
+
+---
+
+### Conclusion
+Managing users in Active Directory is a fundamental task for system administrators. I hope I was able to share useful information.
 
