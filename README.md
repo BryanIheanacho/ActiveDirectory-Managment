@@ -52,4 +52,5 @@ Before you begin, ensure you have the following:
 2. Enter the new password and confirm it.
 3. Click **OK**.
 
-![input-password-ad](https://github.com/user-attachments/assets/43eef6a4-653c-432c-aa91-69b2d654acfc)
+![right-click-password](https://github.com/user-attachments/assets/ec106c4c-a201-4af1-871a-b43d68e397da)
+
