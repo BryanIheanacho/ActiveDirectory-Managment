@@ -50,4 +50,5 @@ Before you begin, ensure you have the following:
 1. Right-click on the user and select **Reset Password**.
 2. Enter the new password and confirm it.
 3. Click **OK**.
+
 ![input-password-ad](https://github.com/user-attachments/assets/43eef6a4-653c-432c-aa91-69b2d654acfc)
