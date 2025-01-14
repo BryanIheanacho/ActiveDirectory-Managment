@@ -1,60 +1,66 @@
-# Creating & Managing Users in Active Directory
+# Information-Technology-Projects
+# Joining a Computer to a Domain within Active Directory
 
-This guide explains how to create a new user and change their password in Active Directory using both the GUI (Active Directory Users and Computers) and PowerShell.
+Hello, my name is Bryan Iheanacho and in this guide I will explain how to join a Windows computer to an Active Directory (AD) domain. 
 
 ---
 
 ## Prerequisites
 
-Before you begin, ensure you have the following:
-1. Administrative access to the Active Directory environment.
-2. Access to the domain controller or a machine with the **Active Directory Users and Computers (ADUC)** tool installed.
-
-
----
-
-### Using Active Directory Users and Computers (GUI)
-
-### Step 1: Open the Active Directory Users and Computers Tool
-1. Press `Windows`, type and click **Active Directory Users and Computers**
-2. Navigate to the appropriate Organizational Unit (OU) where the new user will reside.
+Before starting, ensure the following:
+1. You have a computer running Windows (e.g., Windows 10/11 or Windows Server).
+2. The computer is connected to the same network as the domain controller.
+3. You have domain administrator credentials or an account with permission to join devices to the domain.
+4. The computer has a unique name on the network.
 
 ---
 
-### Step 2: Create a New User
-1. Right-click on the OU and select **New > User**.
-2. Fill out the user details:
-   - **First name**: Enter the user's first name.
-   - **Last name**: Enter the user's last name.
-   - **User logon name**: Enter the logon name (e.g., `jdoe`).
-3. Click **Next**..
+## Steps to Join the Domain
 
-![creating-user-ad](https://github.com/user-attachments/assets/59d3d9c2-887c-494c-9d1d-8bc6fe1c8137)
+### 1. Open the System Settings
+1. Press `Windows + I` to open **Settings**.
+2. Navigate to **System > About** (on older systems, right-click "This PC" > **Properties**).
 
 ---
 
-### Step 3: Set the User Password
-1. Enter a password for the new user.
-2. Choose password options:
-   - **User must change password at next logon** (recommended).
-   - **User cannot change password** (if needed).
-   - **Password never expires** (not recommended unless necessary).
-   - **Unlock the user's account** (if account has locked)
-3. Click **Next** and then **Finish**.
-
-![input-password-ad](https://github.com/user-attachments/assets/b75c97e2-89c1-42d0-9688-c5e1ef670732)
-
+### 2. Change the Computer Name and Domain
+1. Scroll down and click **Advanced system settings** 
+2. In the **System Properties** window:
+   - Go to the **Computer Name** tab.
+   - Click **Change**.
+3. In the **Computer Name/Domain Changes** window:
+   - Under **Computer Name** you can name the name of the device. 
+   - Under **Member of**, select **Domain**.
+   - Enter the name of the domain (e.g., `example.com`).
+4. Click **OK**.
+![domain-add-name](https://github.com/user-attachments/assets/c5f6dcfb-8d77-49f5-8af4-33c8c143f8ad)
 
 ---
 
-### Step 4: Change an Existing User's Password
-1. Right-click on the user and select **Reset Password**.
-2. Enter the new password and confirm it.
+### 3. Authenticate with Domain Credentials
+1. A prompt will appear asking for credentials.
+2. Enter the username and password of an account with permission to join devices to the domain.
 3. Click **OK**.
 
-![right-click-password](https://github.com/user-attachments/assets/ec106c4c-a201-4af1-871a-b43d68e397da)
+---
+
+### 4. Restart the Computer
+1. Once the computer successfully joins the domain, you’ll see a confirmation message.
+2. Restart the computer to apply the changes.
+![pc-listed-AD](https://github.com/user-attachments/assets/3ff707bd-7e66-4300-9e20-bb6ebdef416c)
 
 ---
 
-### Conclusion
-Managing users in Active Directory is a fundamental task for system administrators. I hope I was able to share useful information.
+## Troubleshooting
+
+If you encounter issues:
+1. **Check Network Connectivity**:
+   - Ensure the computer can reach the domain controller (e.g., try pinging the domain controller's IP or hostname).
+2. **Verify DNS Settings**:
+   - The computer’s DNS server should point to the domain controller.
+3. **Ensure Necessary Permissions**:
+   - Confirm the account has permission to join computers to the domain.
+4. **Firewall Issues**:
+   - Ensure there are no firewalls blocking communication to the domain controller.
+
+---
