@@ -4,12 +4,19 @@
 This project details the process of managing a ticket in Jira for a user, **Greg Moon**, who needed access to the **Marketing folder** on the shared drive. The request was handled by verifying user permissions and granting access to the necessary folder for an upcoming campaign.
 
 ---
+## View Open Tickets
+- Start by logging in and viewing the open tickets
 
+![jira-opentickets1](https://github.com/user-attachments/assets/85b3b5cc-76d9-4ddd-9797-c70d41ef3faa)
+
+  
 ## Ticket Details
 
 **Ticket Subject**: Request for Access to Marketing Folder  
 **Ticket Description**:  
 "I am unable to access the Marketing folder on the shared drive, which is preventing me from completing my tasks for the upcoming campaign. I need access to the folder to retrieve marketing assets and documents necessary for my work."
+
+![jira-ticket-inprogress](https://github.com/user-attachments/assets/4f6e9e89-01df-43fc-8d9d-bc8c639ea72d)
 
 ---
 
@@ -28,12 +35,20 @@ This project details the process of managing a ticket in Jira for a user, **Greg
 
 ---
 
+## Change ticket status to Resolved
+
+![jira-status-resolved](https://github.com/user-attachments/assets/620204e3-bd88-4bf4-9f98-d9f5545f0c54)
+
+
 ## Communication with the User
 
 ### Response to User:
 Once the access was granted, I sent the following message to **Greg Moon**:
 
 ---
+
+![jira-ticket-response](https://github.com/user-attachments/assets/6f2020d4-eec2-451d-a94b-224557a02fb8)
+
 
 **Subject**: Access Granted to Marketing Folder
 
